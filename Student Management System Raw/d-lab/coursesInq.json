@@ -1,0 +1,39 @@
+[
+          {
+                    "courseId": "MV001",
+                    "courseName": "Metaverse",
+                    "courseFee": 2000,
+                    "coursesForAdmission": [
+                              "Metaverse"
+                    ],
+                    "courseInstructor": {
+                              "id": "TS001",
+                              "name": "ZIA",
+                              "age": 30,
+                              "courses": [
+                                        "Metaverse"
+                              ],
+                              "salary": 23,
+                              "pin": "T001"
+                    }
+          },
+          {
+                    "courseId": "001BC",
+                    "courseName": "Blockchain",
+                    "courseFee": 200,
+                    "coursesForAdmission": [
+                              "Blockchain"
+                    ],
+                    "courseInstructor": {
+                              "id": "TS001",
+                              "name": "DANISH",
+                              "age": 30,
+                              "courses": [
+                                        "Blockchain"
+                              ],
+                              "assignedCourse": [],
+                              "salary": 30,
+                              "pin": "T001"
+                    }
+          }
+]

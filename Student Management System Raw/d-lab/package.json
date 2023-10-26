@@ -1,0 +1,25 @@
+{
+  "name": "d-lab",
+  "version": "18.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "bin": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.6",
+    "chalk": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.11"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "fs": "^0.0.1-security"
+  }
+}
