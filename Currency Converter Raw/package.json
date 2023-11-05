@@ -1,6 +1,6 @@
 {
-  "name": "currency-converter-raw",
-  "version": "1.0.0",
+  "name": "currency-converter-dlab",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Danish",
+  "bin": "main.js",
   "license": "ISC",
   "dependencies": {
     "chalk-animation": "^2.0.3",

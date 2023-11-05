@@ -1,12 +1,13 @@
 {
-  "name": "raw",
+  "name": "dlab-to_do_list",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "author": "",
+  "author": "Muhammad Danish",
+  "bin": "main.js",
   "license": "ISC",
   "keywords": [],
   "description": "",

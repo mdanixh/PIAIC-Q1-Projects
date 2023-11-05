@@ -1,5 +1,5 @@
 {
-  "name": "word-count-raw",
+  "name": "word-count-dlab",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
+  "bin": "main.js",
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Danish",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.11"

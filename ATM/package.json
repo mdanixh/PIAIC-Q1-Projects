@@ -1,6 +1,6 @@
 {
-  "name": "atm",
-  "version": "1.0.0",
+  "name": "atm_d-lab",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -10,10 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bin": "main.js",
   "dependencies": {
-    "@types/chalk": "^2.2.0",
-    "@types/inquirer": "^9.0.3",
-    "chalk": "^5.3.0",
     "inquirer": "^9.2.11"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0"
   }
 }

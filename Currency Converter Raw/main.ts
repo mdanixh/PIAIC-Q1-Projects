@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import chalkAnimation from 'chalk-animation';
 import inquirer from 'inquirer';
 

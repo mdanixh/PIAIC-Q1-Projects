@@ -1,14 +1,15 @@
+#!/usr/bin/env node 
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 
 // Simulated user data (username and password)
-const users: { username: string; password: number | string ; balance: number }[] = [
+const users: { username: string; password: string ; balance: number }[] = [
   { username: 'danish112102', password: "dan112102", balance: 1000 },
   { username: 'shaharyar112161', password: "sher112161", balance: 1500 },
 ];
 
 // Function to find a user by username and password
-function findUser(username: string, password: number) {
+function findUser(username: string, password: string) {
   return users.find((user) => user.username === username && user.password === password);
 }
 
