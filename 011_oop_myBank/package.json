@@ -1,23 +1,23 @@
 {
-  "name": "oop010_mdanixh",
+  "name": "011_oop_mybank",
   "version": "1.0.0",
-  "description": "CLI Base Interactive Chatting Application",
+  "description": "",
   "main": "index.js",
+  "bin": "./main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "bin": "./main.js",
   "author": "Muhammad Danish",
   "license": "ISC",
   "dependencies": {
-    "clear": "^0.1.0",
     "inquirer": "^9.2.11"
   },
   "devDependencies": {
-    "@types/clear": "^0.1.3",
+    "@faker-js/faker": "^8.2.0",
     "@types/inquirer": "^9.0.6",
-    "chalk": "^4.1.2"
+    "chalk": "^5.3.0",
+    "faker": "^6.6.6"
   }
 }
